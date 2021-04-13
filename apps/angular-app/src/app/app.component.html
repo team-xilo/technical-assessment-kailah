@@ -1,0 +1,18 @@
+<div class="app-container">
+  <h3>
+    Welcome to the XILO Technical Assessment! Please click on your use case
+    below:
+  </h3>
+
+  <div class="objectives">
+    <button mat-raised-button color="primary" routerLink="view-files">
+      Filesystem Viewer (Frontend)
+    </button>
+    <button mat-raised-button color="primary" routerLink="health-check">
+      Health Check (Backend)
+    </button>
+  </div>
+  <div class="route-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

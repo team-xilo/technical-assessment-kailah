@@ -1,0 +1,8 @@
+<mat-form-field>
+  <mat-label>Select User</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let user of users" [value]="user.userId">{{
+      user.name
+    }}</mat-option>
+  </mat-select>
+</mat-form-field>
