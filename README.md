@@ -13,11 +13,11 @@ Our goal in this assessment is to evaluate your technical abilities in as close 
 
 ## Setup instructions
 
-1. Fork the repository to your personal Github account, then clone the repo
+1. Clone the repository to your local development environment
 2. Create a new branch for your work.
 3. Run `npm install` to install dependencies
 4. To serve the frontend app, run `npm run start-frontend`. To serve the backend api, run `npm run start-backend`
-5. To submit your completed assessment, create a pull request into the `main` branch on your fork and email us a link to the pull request.
+5. To submit your completed assessment, create a pull request into the `main` branch.
 
 ## Overview
 
