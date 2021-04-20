@@ -123,7 +123,7 @@
     },
     "api": {
       "root": "apps/api",
-      "sourceRoot": "apps\\api\\src",
+      "sourceRoot": "apps/api/src",
       "projectType": "application",
       "architect": {
         "build": {
