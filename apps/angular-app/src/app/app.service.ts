@@ -27,7 +27,7 @@ export class AppService {
 
   isCorruptedByFilesystem(filesystem: any) {
     const url = `${this.apiUrl}/health-check/is-corrupted`;
-    return this.http.post(url, { filesystem });
+    return this.http.post(url, filesystem);
   }
 
   getCorrupted(userId: number) {
